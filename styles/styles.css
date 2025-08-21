@@ -123,15 +123,12 @@ input[type="checkbox"] {
 
 input[type="checkbox"] ~ .card__question-content {
     transition: 0.5s linear;
-    visibility: hidden;     /* */
     max-height: 0;          /* */
     overflow: hidden;
 }
 
 input[type="checkbox"]:checked ~ .card__question-content {
-    visibility: visible;
     max-height: 300px;      /* */
-    overflow: hidden;       /* */
 }
 
 input[type="checkbox"]:checked + label .background-icon {
